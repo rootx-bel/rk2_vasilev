@@ -75,5 +75,6 @@ int main(){
 		modif(i);
 		i->display();
 	}
+	vec.erase(vec.begin(), vec.end());
     return 0;
 }
